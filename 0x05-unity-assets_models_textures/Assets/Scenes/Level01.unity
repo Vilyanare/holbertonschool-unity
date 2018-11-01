@@ -368,10 +368,6 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1471323613343296, guid: 75aa90c02a56943f58906ae509ba21e8, type: 2}
-      propertyPath: m_Name
-      value: TimerCanvas
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75aa90c02a56943f58906ae509ba21e8, type: 2}
   m_IsPrefabAsset: 0
@@ -1299,63 +1295,19 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1970550695753808, guid: a5c9adf88082e47ad988f6c7d265edf6, type: 2}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
+    - target: {fileID: 114978181843562802, guid: a5c9adf88082e47ad988f6c7d265edf6,
+        type: 2}
+      propertyPath: TimerText
+      value: 
+      objectReference: {fileID: 1426417461}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5c9adf88082e47ad988f6c7d265edf6, type: 2}
   m_IsPrefabAsset: 0
---- !u!1 &399965409 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1970550695753808, guid: a5c9adf88082e47ad988f6c7d265edf6,
-    type: 2}
-  m_PrefabInternal: {fileID: 399965408}
---- !u!114 &399965410
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 399965409}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68971fc1efd6c4949a67c0a012c257d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 12
-  jumpStrength: 20
---- !u!54 &399965411
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 399965409}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!4 &399965415 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4611764630061746, guid: a5c9adf88082e47ad988f6c7d265edf6,
     type: 2}
   m_PrefabInternal: {fileID: 399965408}
---- !u!114 &399965416
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 399965409}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba2a17d75a0ff431289b1b6b33d9d072, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TimerText: {fileID: 1426417461}
 --- !u!1001 &403521723
 Prefab:
   m_ObjectHideFlags: 0
@@ -1792,7 +1744,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 534669902}
   m_LocalRotation: {x: 0.078459114, y: 0, z: 0, w: 0.99691737}
-  m_LocalPosition: {x: 0, y: 2.5, z: -6.5}
+  m_LocalPosition: {x: 0, y: 2.5, z: -6.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2039,7 +1991,7 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 729862748}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
